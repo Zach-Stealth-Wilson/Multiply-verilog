@@ -23,7 +23,7 @@ module tt_um_example (
 
     tt_um_mult top(
         .Y(ui_in[3:0]),
-        .X(ui_in[7:4]),
+        .X(uio_in[3:0]),
         .Z2(uo_out[7:0])
      );
     
