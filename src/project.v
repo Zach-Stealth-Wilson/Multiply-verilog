@@ -22,9 +22,9 @@ module tt_um_example (
     assign uio_oe [7:0]  = 0;
 
     tt_um_mult (
-        .Z2,
-        .X,
-        .Y
+        .Y(ui_in[3:0]),
+        .X(ui_in[7:4]),
+        .Z2(uo_out[7:0])
      );
     
 
