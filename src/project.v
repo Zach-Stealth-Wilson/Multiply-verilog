@@ -21,6 +21,11 @@ module tt_um_example (
     assign uio_out[7:0] = 0;
     assign uio_oe [7:0]  = 0;
 
+    tt_um_mult (
+        .Z2,
+        .X,
+        .Y
+     );
     
 
 endmodule
