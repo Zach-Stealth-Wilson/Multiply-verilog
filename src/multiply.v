@@ -1,7 +1,7 @@
 
 // Correction constant value: 0 (00000000)
 
-module tt_um_mult (Z2, X, Y);
+module tt_um_mult (Y, X, Z2);
 	
 	input [3:0] Y;
 	input [3:0] X;
